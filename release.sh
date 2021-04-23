@@ -15,5 +15,5 @@ then
   git push origin master
 
   # publish
-  npm publish
+  sudo npm publish
 fi
