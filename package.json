@@ -1,6 +1,6 @@
 {
   "name": "wind-library",
-  "version": "0.01.1",
+  "version": "0.1.1",
   "description": "",
   "main": "lib/index.min.js",
   "module": "lib/index.es.js",
