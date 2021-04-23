@@ -55,14 +55,14 @@ function deSerialize(val?: string | null) {
   }
 }
 
-function createStorage (type:number) {
-  if(typeof window === 'undefined') {
-    throw new Error('must be web environment')
+function createStorage(type: number) {
+  if (typeof window === 'undefined') {
+    throw new Error('storage must be web environment');
   }
-  if(type === 1) {
-    return new Storage(window.localStorage)
+  if (type === 1) {
+    return new Storage(window.localStorage);
   }
-  return new Storage(window.sessionStorage)
+  return new Storage(window.sessionStorage);
 }
 
 const storage = {
