@@ -4,4 +4,5 @@ const a = (number: number) => {
   });
 };
 
+//
 export default a;
