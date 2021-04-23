@@ -6,6 +6,10 @@ describe('test session Storage', () => {
     const value = sessionStorage.get('wanghaoyu');
     expect(value).toEqual('wanghaoyu');
     sessionStorage.clear();
+    await sessionStorage.set('nameObj', { name: 'wanghaoyu' });
+    const nameObj = sessionStorage.get('nameObj');
+    expect(nameObj).toEqual({ name: 'wanghaoyu' });
+    sessionStorage.clear();
     expect(sessionStorage.getAll()).toEqual({});
   });
   it('session remove', async () => {

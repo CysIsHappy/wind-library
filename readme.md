@@ -41,3 +41,17 @@ storage.local.set()
 ```
 
 </details>
+
+### 星座
+
+<details>
+<summary>constellation</summary>
+
+```js
+import { constellation } from 'wind-library';
+const birthday = '2000-01-03';
+
+constellation(birthday); // 摩羯
+```
+
+</details>
