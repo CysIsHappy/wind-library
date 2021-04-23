@@ -1,8 +1,3 @@
-const a = (number: number) => {
-  return new Promise((resolve) => {
-    resolve(number);
-  });
-};
+import Storage from './storage';
 
-//
-export default a;
+export { Storage };

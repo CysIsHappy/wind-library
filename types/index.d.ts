@@ -1,2 +1,2 @@
-declare const a: (number: number) => Promise<unknown>;
-export default a;
+import Storage from './storage';
+export { Storage };
