@@ -57,7 +57,7 @@ function deSerialize(val?: string | null) {
 
 function createStorage(type: number) {
   if (typeof window === 'undefined') {
-    throw new Error('storage must be web environment');
+    throw new Error('storage must be web environment!');
   }
   if (type === 1) {
     return new Storage(window.localStorage);
