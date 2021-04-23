@@ -1,2 +1,3 @@
 import Storage from './storage';
-export { Storage };
+import constellation from './constellation';
+export { Storage, constellation };
