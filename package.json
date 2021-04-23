@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ustbhuangyi/ts-axios"
+    "url": "https://github.com/Nx-Front/Wind-Library"
   },
   "scripts": {
     "test": "jest --coverage --verbose -u",
