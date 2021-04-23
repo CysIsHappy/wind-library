@@ -9,7 +9,7 @@ declare class Storage {
     forEach(cb: (key: string, value?: any) => void): void;
 }
 declare const storage: {
-    local: Storage | null;
-    session: Storage | null;
+    local: Storage;
+    session: Storage;
 };
 export default storage;
