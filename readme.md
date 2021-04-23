@@ -12,12 +12,12 @@ yarn add wind-library
 npm install wind-library --save-dev
 ```
 
-### 本地/会话 存储
+### 本地/会话存储
 
 ---
 
-<details open>
-<summary>Vue 3</summary>
+<details>
+<summary>Storage</summary>
 
 ```js
 import { storage } from 'wind-library';
