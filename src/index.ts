@@ -4,7 +4,5 @@ const a = (number: number) => {
   });
 };
 
-a(1);
-console.log(a(1).then((res) => console.log(res)));
 
 export default a;
