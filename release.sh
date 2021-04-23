@@ -1,19 +1,19 @@
 #!/usr/bin/env sh
 set -e
-echo "Enter major version: "
+echo "Enter release version: "
 read VERSION
-read -p "Major $VERSION - are you sure? (y/n)" -n 1 -r
+read -p "Releasing $VERSION - are you sure? (y/n)" -n 1 -r
 echo  # (optional) move to a new line
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-  echo "Major $VERSION ..."
+  echo "Releasing $VERSION ..."
 
   # commit
   git add -A
   git commit -m "[build] $VERSION"
-  npm version $VERSION --message "major $VERSION"
+  npm version $VERSION --message "[release] $VERSION"
   git push origin master
 
   # publish
-  sudo npm publish
+  npm publish
 fi
