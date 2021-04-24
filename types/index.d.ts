@@ -1,3 +1,4 @@
 import Storage from './storage';
 import constellation from './constellation';
-export { Storage, constellation };
+import { isPicture, isVideo } from './file-type';
+export { Storage, constellation, isPicture, isVideo };
