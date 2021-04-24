@@ -12,9 +12,9 @@ yarn add wind-library
 npm install wind-library --save-dev
 ```
 
-## Tool Function
+## Tool API
 
-### 本地/会话存储
++ **本地/会话存储**
 
 ---
 
@@ -42,7 +42,7 @@ storage.local.set(...)
 
 </details>
 
-### 生日转化星座
++ **生日转化星座**
 
 ---
 
@@ -58,7 +58,7 @@ constellation(birthday); // 摩羯
 
 </details>
 
-### 根据 URL 判断是否是视频/图片
++ **根据 URL 判断是否是视频/图片**
 
 ---
 
