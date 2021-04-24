@@ -40,6 +40,8 @@ storage.local.set(...)
 
 </details>
 
+---
+
 - **生日转化星座**
 
 <details>
@@ -53,6 +55,8 @@ constellation(birthday); // 摩羯
 ```
 
 </details>
+
+---
 
 - **根据 URL 判断是否是视频/图片**
 
@@ -68,3 +72,5 @@ isVideo('http://hycoding.com/1cabidesa.mp4'); // true
 > 使用正则匹配后缀判断，对于非正常 URL 请不要使用这个方法。
 
 </details>
+
+---
