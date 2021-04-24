@@ -12,6 +12,8 @@ yarn add wind-library
 npm install wind-library --save-dev
 ```
 
+## Tool Function
+
 ### 本地/会话存储
 
 ---
@@ -33,16 +35,14 @@ storage.session.clear();
 storage.session.getAll();
 // 遍历
 storage.session.forEach(cb);
-
-
-// localStorage
-storage.local.set()
+// localStorage 同样API
+storage.local.set(...)
 ...
 ```
 
 </details>
 
-### 星座
+### 生日转化星座
 
 ---
 
@@ -57,3 +57,22 @@ constellation(birthday); // 摩羯
 ```
 
 </details>
+
+### 根据 URL 判断是否是视频/图片
+
+---
+
+> 使用正则匹配后缀判断，对于非正常 URL 请不要使用这个方法。
+
+<details>
+<summary>isPicture/isVideo</summary>
+
+```js
+import { isPicture, isVideo } from 'wind-library';
+isPicture('http://hycoding.com'); // false
+isVideo('http://hycoding.com/1cabidesa.mp4'); // true
+```
+
+</details>
+
+---
