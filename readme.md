@@ -74,3 +74,19 @@ isVideo('http://hycoding.com/1cabidesa.mp4'); // true
 </details>
 
 ---
+
+---
+
+- **读取 JSON 文件内容(File 对象),返回读取变量**
+
+<details>
+<summary>fileToJson</summary>
+
+```js
+import { fileToJson } from 'wind-library';
+fileToJson(File);
+```
+
+</details>
+
+---
